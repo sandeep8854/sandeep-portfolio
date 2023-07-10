@@ -98,7 +98,7 @@ a:hover {
 }
 
 .technologyLove h4 {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 .projects {
@@ -135,6 +135,7 @@ a:hover {
   margin-top: 0.8rem;
   box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.7);
   padding: 1.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .ow {
@@ -181,6 +182,7 @@ a:hover {
 }
 
 .blogs {
+  margin-top: 5.6rem;
   padding-top: 6rem;
   background-color: #ea94f1;
   text-align: center;
