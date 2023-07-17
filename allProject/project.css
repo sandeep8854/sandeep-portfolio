@@ -168,3 +168,23 @@ a:hover {
 .container p {
   color: #000;
 }
+
+footer {
+  padding-top: 4rem;
+  background-color: #eef2ff;
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
+footer h2 {
+  margin-bottom: 2.5rem;
+}
+
+footer ul li {
+  display: inline;
+  padding-right: 1.5rem;
+}
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
