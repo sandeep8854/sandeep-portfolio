@@ -120,6 +120,7 @@ a:hover {
 }
 .project-paragraph {
   font-size: 1.5rem;
+  letter-spacing: 2px;
   padding-bottom: 3rem;
 }
 .project-box a {
@@ -227,6 +228,7 @@ a:hover {
 }
 .blogs p {
   font-size: 1.6rem;
+  letter-spacing: 2px;
   margin-top: 1.5rem;
 }
 .button-container {
