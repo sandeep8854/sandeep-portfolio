@@ -17,15 +17,16 @@ html {
   --primary-color: #a21caf;
   --backgroundColor: #ecd2ef;
   --dark-grey: #404040;
+  --color-light-gray: #f3f4f6;
 }
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.5;
   min-height: 100vh;
   /* // background-color: var(--backgroundColor); */
-  color: var(--primary-color);
+  color: var(--dark-grey);
 }
 
 /* Styling nav bar. */
@@ -53,7 +54,7 @@ body {
   text-decoration: none;
   font-weight: bold; /*  check if you find any mistake in future */
 }
-a:hover {
+.navigation a:hover {
   color: var(--dark-grey);
 }
 .navigation ul {
@@ -66,7 +67,7 @@ a:hover {
   padding: 0rem 0.5rem;
   padding-top: 1rem;
 }
-
+/* Header start. */
 .header {
   display: block;
   padding: 2rem;
@@ -97,7 +98,69 @@ a:hover {
 
 /* project */
 
+.section-non-white {
+  background-color: var(--color-light-gray);
+}
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+.container-center {
+  margin: auto;
+  max-width: 60rem;
+}
 .container {
+  padding: 0 1rem;
+}
+.high-light {
+  color: var(--primary-color);
+}
+.container h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding-bottom: 3rem;
+}
+.container small {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+.container p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.button-center {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(9rem, 14rem));
+  gap: 1.5rem;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.link-primary {
+  max-width: 14rem;
+  padding: 0.9rem 1.2rem;
+  margin: 2rem auto;
+  color: #fff;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+.link-secondary {
+  max-width: 14rem;
+  padding: 0.9rem 1.2rem;
+  margin: 2rem auto;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+
+/* .container {
   padding: 0rem 1.6rem;
   border-radius: 10px;
   margin-bottom: 2.6rem;
@@ -171,11 +234,12 @@ a:hover {
 .container small,
 .container p {
   color: #000;
-}
+} */
 
+/* Footer start. */
 footer {
   padding-top: 4rem;
-  background-color: #eef2ff;
+  /* background-color: #eef2ff; */
   text-align: center;
   padding-bottom: 3rem;
   font-size: 1.5rem;
