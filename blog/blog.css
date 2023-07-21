@@ -17,6 +17,7 @@ html {
   --primary-color: #a21caf;
   --backgroundColor: #ecd2ef;
   --dark-grey: #404040;
+  --color-light-gray: #f3f4f6;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
   line-height: 1;
   min-height: 100vh;
   /* // background-color: var(--backgroundColor); */
-  color: var(--primary-color);
+  color: var(--dark-grey);
 }
 
 /* Styling nav bar. */
@@ -94,4 +95,51 @@ a:hover {
 
 .header .heading-inverted {
   color: var(--primary-color);
+}
+
+.section-non-white {
+  background-color: var(--color-light-gray);
+}
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+.container-center {
+  margin: auto;
+  max-width: 60rem;
+}
+.container {
+  padding: 0 1rem;
+}
+.high-light {
+  color: var(--primary-color);
+}
+.container h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding-bottom: 3rem;
+}
+.container small {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+.container p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.button-center {
+  margin-top: 4rem;
+  text-align: center;
+}
+.link-secondary {
+  min-width: 14rem;
+  padding: 0.6rem 1.2rem;
+  margin: 2rem auto;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  text-decoration: none;
 }
