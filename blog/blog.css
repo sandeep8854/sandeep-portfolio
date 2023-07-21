@@ -23,7 +23,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.5;
   min-height: 100vh;
   /* // background-color: var(--backgroundColor); */
   color: var(--dark-grey);
@@ -127,6 +127,7 @@ a:hover {
   padding-top: 2rem;
   font-size: 1.5rem;
   letter-spacing: 1px;
+  font-weight: 400;
 }
 
 .button-center {
