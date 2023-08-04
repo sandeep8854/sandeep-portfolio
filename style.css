@@ -18,6 +18,7 @@ html {
   --backgroundColor: #ecd2ef;
   --dark-grey: #404040;
   --color-light-gray: #f3f4f6;
+  --card-backColor: #fff;
 }
 
 body {
@@ -156,7 +157,9 @@ body {
 }
 
 /* social media start */
-
+.contact-social {
+  background-color: var(--color-light-gray);
+}
 .heading-container {
   text-align: center;
 }
@@ -197,6 +200,7 @@ body {
   padding: 2.5rem;
   border-radius: 5px;
   text-align: center;
+  background-color: var(--card-backColor);
 }
 
 .contact__card .contact__card-icon {
@@ -228,7 +232,7 @@ body {
 footer {
   padding-top: 4rem;
   /* background-color: #eef2ff; */
-  background-color: var(--color-light-gray);
+
   text-align: center;
   padding-bottom: 3rem;
   font-size: 1.5rem;
