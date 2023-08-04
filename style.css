@@ -154,6 +154,77 @@ body {
   font-size: 1.7rem;
   text-decoration: none;
 }
+
+/* social media start */
+
+.heading-container {
+  text-align: center;
+}
+.heading-2 {
+  padding-top: 4rem;
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+}
+.heading-container .heading-2__sub {
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  display: block;
+  letter-spacing: 1px;
+  color: var(--dark-light);
+}
+
+.contact__title {
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+.box__info {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.contact__card {
+  margin: 0 0 4rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact__card .contact__card-icon {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.contact__card .social {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.contact__card-data {
+  display: flex;
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+}
+.contact__button {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--dark-grey);
+  font-size: 1.2rem;
+}
+
+/* social media end */
 footer {
   padding-top: 4rem;
   /* background-color: #eef2ff; */
