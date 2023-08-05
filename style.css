@@ -286,3 +286,10 @@ footer ul li a {
   text-decoration: none;
   font-weight: bold;
 }
+.footer__copy {
+  display: block;
+  padding: 4rem 0 5rem;
+  color: var(--dark-grey);
+  font-size: 1.2rem;
+  text-align: center;
+}
