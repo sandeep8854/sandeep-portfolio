@@ -81,6 +81,7 @@ body {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 4rem;
 }
 .header-heading {
   background-color: var(--color-light-gray);
@@ -132,7 +133,7 @@ body {
   max-width: 60rem;
   margin: auto;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 6rem;
 }
 .section h1 {
   padding-top: 4rem;
@@ -262,6 +263,7 @@ input {
 }
 .btn {
   cursor: pointer;
+  background-color: #fff;
 }
 
 /* message end */
