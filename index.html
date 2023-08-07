@@ -19,28 +19,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navigation">
-      <!-- <div class="nav-brand forUpside">What is Triangle?</div> -->
-      <div class="nav-brand forUpside">
-        Sandeep Prajapati
-        <!-- <a href="index.html">Sandeep Prajapati</a> -->
+    <header id="head">
+      <div id="brand"><a href="/">Sandeep Prajapati</a></div>
+      <nav>
+        <ul class="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="./allProject/project.html">Projects</a></li>
+          <li><a href="./blog/blog.html">Blogs</a></li>
+          <li id="prob-solving">
+            <a href="./probSolving/problemSol.html">Prob.Solving</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu list">
+          <li><a href="#">Home</a></li>
+          <li><a href="./allProject/project.html">Projects</a></li>
+          <li><a href="./blog/blog.html">Blogs</a></li>
+          <li id="prob-solving">
+            <a href="./probSolving/problemSol.html">Prob.Solving</a>
+          </li>
+        </ul>
       </div>
-      <ul>
-        <li>
-          <a class="link-active" href="#">Home</a>
-        </li>
-        <li>
-          <a href="allProject/project.html">Projects</a>
-        </li>
-        <li>
-          <a href="blog/blog.html">Blogs</a>
-        </li>
-        <li>
-          <a href="probSolving/problemSol.html">Prob.Solving</a>
-        </li>
-      </ul>
-    </nav>
+    </header>
     <!-- End Navbar -->
+    <!-- Mobile nav bar -->
     <!-- Section for image -->
 
     <header class="headerImg">
@@ -88,7 +94,9 @@
           it.
         </p>
         <div class="button-center">
-          <a class="link-secondary" href="allProject/project.html">Projects</a>
+          <a class="link-secondary" href="allProject/project.html"
+            >Projects &rarr;</a
+          >
         </div>
       </section>
     </div>
@@ -100,7 +108,7 @@
         document my journey of learning.
       </p>
       <div class="button-center">
-        <a class="link-secondary" href="blog/blog.html">Read Blogs</a>
+        <a class="link-secondary" href="blog/blog.html">Read Blogs &rarr;</a>
       </div>
     </section>
     <!--  social media contact start-->

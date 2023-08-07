@@ -68,6 +68,9 @@ body {
   padding: 0rem 0.5rem;
   padding-top: 1rem;
 }
+h1 {
+  text-align: center;
+}
 
 footer {
   padding-top: 4rem;
