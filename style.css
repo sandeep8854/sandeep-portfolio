@@ -48,6 +48,12 @@ body {
   display: flex;
   align-items: center;
 }
+.logo {
+  height: auto;
+  margin-top: 1rem;
+  max-width: 30rem;
+  width: 100%;
+}
 #brand a {
   color: #fff;
 }
